@@ -7,6 +7,7 @@ app = Flask(__name__)
 def puppiesFunction():
   return "Yes, puppies!"
   
+@app.route(['/login', methods=[]])
  
 #Make another app.route() decorator here that takes in an integer named 'id' for when the client visits a URI like "/puppies/5"
 
